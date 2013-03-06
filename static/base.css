@@ -24,6 +24,49 @@ div#header h2 {
   font-size: 1.15em;
 }
 
+div.log-entry {
+  font-size: 1em;
+  display: block;
+
+  margin: 0.5em 0;
+  padding: 0.5em;
+
+  background-color: #c0e7ff;
+}
+
+div.log-entry p {
+  margin: 0 0 0 2.7em;
+}
+
+div.log-entry span.log-time-stamp {
+  float: left;
+  font-size: 0.85em;
+  color: #555555;
+}
+
+div#footer {
+  margin-top: 0.5em; 
+  margin-bottom: 3em;
+  border-top: 1px dashed #40588f;
+}
+
+div.log-form form {
+  margin: 0 0 0 2.7em;
+}
+
+div.log-form textarea {
+  width: 100%;
+  border: none;
+  font-family: inherit;
+  background: rgba(255,255,255,0.4);
+}
+
+div.log-form input[type=submit],input[type=reset] {
+  display: inline-block;
+  margin-top: 0.25em;
+  cursor: pointer;
+}
+
 .italic {
   font-style: italic;
 }
