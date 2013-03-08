@@ -14,3 +14,5 @@ app/localsettings.py
 # Gunicorn local config
 gunicorn_config.py
 
+# Databases
+*.db
