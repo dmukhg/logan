@@ -1,0 +1,5 @@
+[
+  {"pk": 1, "model": "app.event", "fields": {"what": "Took a bath", "when": "2013-03-09T07:40:03.722Z"}},
+  {"pk": 2, "model": "app.event", "fields": {"what": "Made a sandwich. Buttered toast around potato chips and ketchup!", "when": "2013-03-09T08:00:03.722Z"}},
+  {"pk": 3, "model": "app.event", "fields": {"what": "Surprisingly, it didn't taste so good.  Surprising room-mate with an awful breakfast!", "when": "2013-03-08T08:10:03.722Z"}}
+]
