@@ -10,5 +10,20 @@
       <h1 class="CL-dark-blue">Logan</h1>
       <h2 class="CL-dark-blue italic">For the merciless broadcasters</h2>
     </div>
+    <div class="page" id="log-area">
+      {% block log %}
+      {% endblock %}
+      <div class="log-form log-entry">
+        <span class="current-time-stamp log-time-stamp">NOW</span>
+        <form action="/" method="POST">
+          <input type="hidden" name="time" class="current-time-stamp"/>
+          <textarea name="what"></textarea>
+          <input type="submit" value="Post">
+          <input type="reset" value="Clear">
+        </form>
+      </div>
+    <div class="page" id="footer">
+      &copy; &lt;&lt; Insert your name here &gt;&gt;
+    </div>
   </body>
 </html>
